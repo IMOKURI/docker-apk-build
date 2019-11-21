@@ -1,8 +1,5 @@
+FROM    alpine:latest
 
-
-FROM    alpine:edge
-
-ADD     repositories /etc/apk/repositories
 RUN     apk -U add alpine-sdk
 
 RUN     mkdir -p /var/cache/distfiles && \
