@@ -9,7 +9,8 @@ builder:
 target:
 	mkdir -p target
 aports:
-	git clone https://git.alpinelinux.org/aports
+	git clone https://github.hpe.com/yoshio-sugiyama/aports.git
+	# git clone https://git.alpinelinux.org/aports
 
 .PHONY: aports_update
 aports_update: aports
